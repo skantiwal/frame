@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testingbaba">
+	<parameter name="url" value="Stagingurl"></parameter>
+	<parameter name="browsername" value="chrome"></parameter>
+	<test name="loginpage" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.login_test" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="textboxverify" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Text_Box_Test" />
+		</classes>
+	</test>
+	
+	<test name="Button_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Button_Test" />
+		</classes>
+	</test>
+	
+	<test name="Link_pageTest_utility" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Link_pageTest_utility" />
+		</classes>
+	</test>
+	
+	<test name="Upload_Document_Page_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Upload_Document_Page_Test" />
+		</classes>
+	</test>
+	
+	<test name="WebTable_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.WebTable_Test" />
+		</classes>
+	</test>
+	
+	<test name="Alert_pages_browserTEST" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Alert_pages_browserTEST" />
+		</classes>
+	</test>
+	
+	<test name="Alert_PageTest" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Alert_PageTest" />
+		</classes>
+	</test>
+	
+	<test name="Widget_Menu_Page_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Widget_Menu_Page_Test" />
+		</classes>
+	</test>
+	
+	<test name="SelectMenu_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.SelectMenu_Test" />
+		</classes>
+	</test>
+	
+	
+	<test name="Widget_ToolTest" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Widget_ToolTest" />
+		</classes>
+	</test>
+	
+	<test name="Widget_progressBar_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Widget_progressBar_Test" />
+		</classes>
+	</test>
+	
+	<test name="WidgetTab_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.WidgetTab_Test" />
+		</classes>
+	</test>
+	
+	<test name="widget_AutoTab_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.widget_AutoTab_Test" />
+		</classes>
+	</test>
+	
+	<test name="SelectDate_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.SelectDate_Test" />
+		</classes>
+	</test>
+	
+	<test name="Sortable_page_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.Sortable_page_Test" />
+		</classes>
+	</test>
+	
+	<test name="NestedFrame_Test" enabled="false">
+		<classes>
+			<class name="Testing_Baba_test.NestedFrame_Test" />
+		</classes>
+	</test>
+	<test name="Frame_Test" enabled="true">
+		<classes>
+			<class name="Testing_Baba_test.Frame_Test" />
+		</classes>
+	</test>
+	
+</suite> <!--
+Suite -->
